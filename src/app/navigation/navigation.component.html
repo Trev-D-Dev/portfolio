@@ -1,0 +1,29 @@
+<div>
+    <div class="buttons" *ngFor="let button of buttons">
+        @if (currentPage == button.toLowerCase()) {
+            <button 
+                class="selected nav-button"
+                routerLink="/{{button.toLowerCase()}}"
+                (click)="changeSelected($event)" 
+                id="{{button}}"
+                disabled>
+                {{button}}
+            </button>
+        } @else if (button == 'Resume') {
+            <button 
+                (click)="openFile()" 
+                class="nav-button" 
+                id="{{button}}">
+                {{button}}
+            </button>
+        } @else {
+            <button 
+                (click)="changeSelected($event)" 
+                routerLink="/{{button.toLowerCase()}}" 
+                class="nav-button" 
+                id="{{button}}">
+                {{button}}
+            </button>
+        }
+    </div>
+</div>
