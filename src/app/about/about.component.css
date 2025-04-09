@@ -1,0 +1,72 @@
+@import './../../styles.css';
+
+.tile {
+    aspect-ratio: 3/1;
+}
+
+.welcome {
+    width: 55vw;
+    min-width: 696px;
+}
+
+.contact {
+    width: 28vw;
+    min-width: 395px;
+}
+
+.about-me {
+    width: 50vw;
+}
+
+.interests {
+    width: 33vw;
+}
+
+.content {
+    align-self: center;
+}
+
+.content#welcome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-between;
+}
+
+.content#welcome h1 {
+    margin: auto;
+    margin-left: 5rem;
+    font-size: 3.5vw;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tile-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+p {
+    font-size: 200%;
+    margin-top: 1rem;
+}
+
+a {
+    color: var(--navbutton-bg-color);
+}
+
+#welcome-img {
+    object-fit: contain;
+    max-width: 300px;
+    height: auto;
+}

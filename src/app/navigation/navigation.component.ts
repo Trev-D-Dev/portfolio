@@ -5,7 +5,7 @@ import { Location } from '@angular/common';
   selector: 'navigation',
   standalone: false,
   templateUrl: './navigation.component.html',
-  styleUrl: './navigation.component.css'
+  styleUrls: ['./navigation.component.css', './../../styles.css']
 })
 export class NavigationComponent {
   constructor(private location: Location) {
@@ -15,6 +15,7 @@ export class NavigationComponent {
     "About",
     "Projects",
     "Skills",
+    "History",
     "Resume",    
   ];
 

@@ -1,0 +1,10 @@
+@import './../styles.css';
+
+main {
+    background-color: var(--main-bg-color);
+}
+
+button {
+    font-family: Helvetica;
+    font-style: bold;
+}

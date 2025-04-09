@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Helvetica;
+    src: url(./media/fonts/Helvetica.ttf) ;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(./media/fonts/Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+
+:root {
+    /*Font Variables*/
+    --font-family: Helvetica;
+    --font-style: bold;
+
+    /*BG Colors*/
+    --main-bg-color: #2B313F;
+    --tile-bg-color: #1C2431;
+
+    /*Drop Shadow Color*/
+    --drop-shadow-color: #1C2230;
+
+    /*Tile Colors*/
+    --page-title-color: #75CCE7;
+    --tile-title-color: #FB689E;
+    --tile-text-color: #E0DFE5;
+
+    /*Navbar Button Colors*/
+    --navbutton-bg-color: #CFB2F5;
+    --navbutton-text-color: #2B313F;
+    --navbutton-selected-bg-color: #FB689E;
+}
+
+html {
+    /*Sets BG Color for Whole Page*/
+    background-color: var(--main-bg-color);
+
+    /*Root Font Size for REM*/
+    font-size: 12px;
+
+    /*Page-Wide Font and Font Style*/
+    font-family: Helvetica;
+    font-style: bold;
+}
+
+h1.page-title {
+    color: var(--page-title-color);
+}
+
+.page {
+    margin: auto;
+    margin-top: 3rem;
+
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 2rem;
+}
+
+div.tile {
+    background-color: var(--tile-bg-color);
+    border-radius: 2rem;
+
+    color: var(--tile-text-color);
+
+    padding: 1rem 2rem;
+
+    box-shadow: 1rem 1rem rgba(28, 34, 48, 0.5);
+}
+
+h1.tile-title {
+    color: var(--tile-title-color);
+}
+
+.image {
+    max-height: 300px;
+    width: auto;
+
+    border-radius: 2rem;
+}

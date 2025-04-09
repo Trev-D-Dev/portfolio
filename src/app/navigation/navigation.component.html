@@ -1,29 +1,31 @@
-<div>
-    <div class="buttons" *ngFor="let button of buttons">
-        @if (currentPage == button.toLowerCase()) {
-            <button 
-                class="selected nav-button"
-                routerLink="/{{button.toLowerCase()}}"
-                (click)="changeSelected($event)" 
-                id="{{button}}"
-                disabled>
-                {{button}}
-            </button>
-        } @else if (button == 'Resume') {
-            <button 
-                (click)="openFile()" 
-                class="nav-button" 
-                id="{{button}}">
-                {{button}}
-            </button>
-        } @else {
-            <button 
-                (click)="changeSelected($event)" 
-                routerLink="/{{button.toLowerCase()}}" 
-                class="nav-button" 
-                id="{{button}}">
-                {{button}}
-            </button>
-        }
+<div class="nav">
+    <div class="buttons">
+        <div  *ngFor="let button of buttons">
+            @if (currentPage == button.toLowerCase()) {
+                <button 
+                    class="selected nav-button"
+                    routerLink="/{{button.toLowerCase()}}"
+                    (click)="changeSelected($event)" 
+                    id="{{button}}-button"
+                    disabled>
+                    <h3 class="nav-text">{{button}}</h3>
+                </button>
+            } @else if (button == 'Resume') {
+                <button 
+                    (click)="openFile()" 
+                    class="nav-button" 
+                    id="{{button}}-button">
+                    <h3 class="nav-text">{{button}}</h3>
+                </button>
+            } @else {
+                <button 
+                    (click)="changeSelected($event)" 
+                    routerLink="/{{button.toLowerCase()}}" 
+                    class="nav-button" 
+                    id="{{button}}-button">
+                    <h3 class="nav-text">{{button}}</h3>
+                </button>
+            }
+        </div>
     </div>
 </div>

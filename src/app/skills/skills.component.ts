@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'skills',
   standalone: false,
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrls: ['./skills.component.css', './../../styles.css']
 })
 export class SkillsComponent {
 
