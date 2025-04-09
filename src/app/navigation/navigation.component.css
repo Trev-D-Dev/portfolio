@@ -1,0 +1,60 @@
+@import './../../styles.css';
+
+/*
+.buttons {
+}
+
+button {
+    color: var(--navbutton-text-color);
+    background-color: var(--navbutton-bg-color);
+
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+}
+
+button.selected {
+    background-color: var(--navbutton-selected-bg-color);
+}*/
+
+.nav {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1.5rem;
+    justify-self: right;
+}
+
+.nav-button {
+    color: var(--navbutton-text-color);
+    background-color: var(--navbutton-bg-color);
+    width: 8rem;
+    height: 2.5rem;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0.625rem 0.625rem rgba(28, 34, 48, 0.5);
+}
+
+/*TODO: Add Transitions and Other Polish Later*/
+.nav-button:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease-in ease-out;
+}
+
+.selected {
+    background-color: var(--navbutton-selected-bg-color);
+}
+
+.nav-text {
+    margin: auto;
+    font-size: 150%;
+}

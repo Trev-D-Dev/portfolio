@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css', './../styles.css']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = "Trevor Dunn's Portfolio";
 }

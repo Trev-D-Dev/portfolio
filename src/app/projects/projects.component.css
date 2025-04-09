@@ -1,0 +1,11 @@
+@import './../../styles.css';
+
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin: auto;
+}
