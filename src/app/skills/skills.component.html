@@ -14,27 +14,46 @@
 
             <div class="filter">
 
-                <button class="filter-button selected disabled">
+                <button 
+                    id="all" 
+                    class="filter-button selected" 
+                    disabled
+                    (click)="changeSelected($event)">
                     All
                 </button>
 
-                <button class="filter-button">
+                <button 
+                    id="game" 
+                    class="filter-button"
+                    (click)="changeSelected($event)">
                     Game Dev
                 </button>
 
-                <button class="filter-button">
+                <button 
+                    id="web" 
+                    class="filter-button"
+                    (click)="changeSelected($event)">
                     Web Dev
                 </button>
 
             </div>
 
             <div class="skills">
-                @if (selectedSkills == "any") {
-
+                @if (selectedSkills == "all") {
+                    <div *ngFor="let skill of hardSkills"
+                    class="skill">
+                        <h4>{{skill.name}}</h4>
+                    </div>
                 } @else if (selectedSkills == "game") {
-
+                    <div *ngFor="let skill of gameSkills"
+                    class="skill">
+                        <h4>{{skill.name}}</h4>
+                    </div>
                 } @else if (selectedSkills == "web") {
-
+                    <div *ngFor="let skill of webSkills"
+                    class="skill">
+                        <h4>{{skill.name}}</h4>
+                    </div>
                 }
             </div>
 

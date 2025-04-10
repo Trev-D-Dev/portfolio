@@ -16,6 +16,9 @@ export class ProjectsComponent {
     this.loadData();
   }
 
+  /**
+   * Function that loads the data from the JSON file
+   */
   async loadData() {
     const response = await fetch('./../../media/data/projects.json');
     const data = await response.json();
