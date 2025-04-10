@@ -6,7 +6,11 @@
 
     <div class="history">
         <div class="content">
-
+            <div class="tile event" *ngFor="let event of history">
+                <h1>{{event.date}}</h1>
+                <h1>{{event.title}}</h1>
+                <h3>{{event.desc}}</h3>
+            </div>
         </div>
     </div>
 
