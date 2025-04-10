@@ -32,7 +32,7 @@ export class NavigationComponent {
    * Opens the specified file in a new window (used for resume button)
    */
   openFile() {
-    window.open('/../media/background.jpg', '_blank');
+    window.open('./../../media/resume/Trevor_Dunn_Resume_01-13-24.pdf', '_blank');
   }
 
   /**

@@ -6,8 +6,16 @@
 
     <div class="tile projects">
         <div class="content">
-            <div>
-
+            <div class="project" 
+                 *ngFor="let project of projects">
+                <h1 class="project-name">{{project.name}}</h1>
+                <h2 class="project-type">{{project.type}}</h2>
+                <h2 class="project-location">{{project.location}}</h2>
+                <h3 class="project-dates">{{project.dates}}</h3>
+                <p class="project-desc">{{project.desc}}</p>
+                <p class="project-skills">{{project.skills}}</p>
+                <h3 class="project-link">{{project.link}}</h3>
+                <h3 class="project-img">{{project.img}}</h3>
             </div>
         </div>
     </div>

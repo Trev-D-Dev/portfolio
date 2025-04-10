@@ -1,23 +1,12 @@
 @import './../../styles.css';
 
-/*
-.buttons {
-}
-
-button {
-    color: var(--navbutton-text-color);
-    background-color: var(--navbutton-bg-color);
-
-    font-family: var(--font-family);
-    font-style: var(--font-style);
-}
-
-button.selected {
-    background-color: var(--navbutton-selected-bg-color);
-}*/
-
 .nav {
     padding: 1rem;
+    
+    width:fit-content;
+    justify-content: right;
+    justify-self: right;
+    justify-items: right;
 }
 
 .buttons {
@@ -25,7 +14,8 @@ button.selected {
     flex-direction: row;
 
     gap: 1.5rem;
-    justify-self: right;
+
+    width: min-content;
 }
 
 .nav-button {

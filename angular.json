@@ -34,7 +34,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "./src/media"
             ],
             "styles": [
               "src/styles.css"

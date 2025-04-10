@@ -10,15 +10,15 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
 
-  projects?: Object;
+  projects?: any;
 
   constructor() {
     this.loadData();
   }
 
   async loadData() {
-    const response = await fetch('./../../media/projects.json');
+    const response = await fetch('./../../media/data/projects.json');
     const data = await response.json();
-    this.projects = data;
+    this.projects = data.projects;
   }
 }
