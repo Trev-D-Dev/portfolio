@@ -14,7 +14,7 @@
 
             <div class="filter">
 
-                <button class="filter-button selected">
+                <button class="filter-button selected disabled">
                     All
                 </button>
 
@@ -29,7 +29,13 @@
             </div>
 
             <div class="skills">
+                @if (selectedSkills == "any") {
 
+                } @else if (selectedSkills == "game") {
+
+                } @else if (selectedSkills == "web") {
+
+                }
             </div>
 
         </div>

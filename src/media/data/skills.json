@@ -1,0 +1,18 @@
+{
+    "hardSkills":[
+        {
+            "name": "Unity",
+            "type": "gameDev"
+        },
+        {
+            "name": "Angular",
+            "type": "webDev"
+        }
+    ],
+    "softSkills":[
+        {
+            "name": "Willingness To Learn",
+            "type": "soft"
+        }
+    ]
+}

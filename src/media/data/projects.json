@@ -1,5 +1,6 @@
 {
-    "projects":[{
+    "projects":[
+    {
         "name": "Looking For Group",
         "type": "Internship",
         "location": "Rochester Institute Of Technology",
@@ -8,5 +9,16 @@
         "skills": "Skill 1, Skill 2, Skill 3",
         "link": "lmao",
         "img": "no"
-    }]
+    },
+    {
+        "name": "A Head for Death",
+        "type": "School Project",
+        "location": "Rochester Institute Of Technology",
+        "desc": "Blah Blah Blah Blah",
+        "dates": "May 2024 - August 2024 / Sept 2024 - Dec 2024",
+        "skills": "Skill 1, Skill 2, Skill 3",
+        "link": "lmao",
+        "img": "no"
+    }
+        ]
 }

@@ -8,4 +8,36 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
 
+  hardSkills?: any;
+  softSkills?: any;
+
+  gameDevSkills?: any;
+  webDevSkills?: any;
+
+  selectedSkills?: String;
+
+  constuctor() {
+    this.loadData();
+
+    this.selectedSkills = "any";
+
+    let gSkills = [];
+    let wSkills = [];
+
+    for(let skill of this.hardSkills) {
+      if(skill.type == "gameDev") { gSkills.push(skill) }
+      else if(skill.type == "webDev") { wSkills.push(skill) }
+    }
+
+    this.gameDevSkills = gSkills;
+    this.webDevSkills = wSkills;
+  }
+
+  async loadData() {
+    const response = await fetch('./../../media/data/skills.json');
+    const data = await response.json();
+    
+    this.hardSkills = data.hardSkills;
+    this.softSkills = data.softSkills;
+  }
 }
