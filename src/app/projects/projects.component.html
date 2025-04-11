@@ -6,17 +6,35 @@
 
     <div class="tile projects">
         <div class="content">
+
+            <!-- TODO: Find a way to split project image and project details so they act more independent of each other (maybe use @for) -->
+
             <div class="project" 
-                 *ngFor="let project of projects">
-                <h1 class="project-name">{{project.name}}</h1>
-                <h2 class="project-type">{{project.type}}</h2>
-                <h2 class="project-location">{{project.location}}</h2>
-                <h3 class="project-dates">{{project.dates}}</h3>
-                <p class="project-desc">{{project.desc}}</p>
-                <p class="project-skills">{{project.skills}}</p>
-                <h3 class="project-link">{{project.link}}</h3>
-                <h3 class="project-img">{{project.img}}</h3>
+                 *ngFor="let project of projects"
+                 (click)="showDetails($event)">
+                 @if (project.img != "N/A") {
+                    <div class="header">
+                        <img id="{{project.tag}}" class="project-img" src="{{project.img}}">
+                    </div>
+                 } @else {
+                    <div>
+                        <h1 id="{{project.tag}}">Portfolio</h1>
+                    </div>
+                 }
+                 <div class="project-details" hidden>
+                    <h1 class="project-name">{{project.name}}</h1>
+                    <h2 class="project-type">{{project.type}}</h2>
+                    <h2 class="project-location">{{project.location}}</h2>
+                    <h3 class="project-dates">{{project.dates}}</h3>
+                    <p class="project-desc">{{project.desc}}</p>
+                    <p class="project-skills">{{project.skills}}</p>
+                    <h3 class="project-link">{{project.link}}</h3>
+                 </div>
             </div>
+
+            <!--@for(let project of projects) {
+
+        }-->
         </div>
     </div>
 

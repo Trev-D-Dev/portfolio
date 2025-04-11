@@ -1,1 +1,63 @@
 @import './../../styles.css';
+
+.projects {
+    width: 90vw;
+    justify-items: left;
+    justify-content: left;
+
+    z-index: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.project {
+    background-color: black;
+
+    width: 25vw;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+
+    border-radius: 2rem;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    width: 25vw;
+
+    aspect-ratio: 16/9;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img {
+    justify-self: center;
+    align-self: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.project-details {
+    background-color: brown;
+
+    width: 20vw;
+}
+
+.project.selected {
+    z-index: 3;
+    height: 60vh;
+}

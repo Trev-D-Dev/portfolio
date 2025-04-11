@@ -4,7 +4,7 @@
         "name": "Looking For Group",
         "type": "Internship",
         "location": "Rochester Institute Of Technology",
-        "desc": "",
+        "desc": "Worked in a team of 28 people to begin development of a platform for RIT students to find groups for various projects. Worked primarily on backend code for the scrapped 'virtual room' feature. In second internship, worked in a small team to restart development of the website. Worked on designing the user interface using Figma and some pages and code.",
         "dates": "May 2024 - August 2024 / Sept 2024 - December 2024",
         "skills": [
             {
@@ -21,11 +21,24 @@
             },
             {
                 "name": "Express.js"
+            },
+            {
+                "name": "Eslint"
+            },
+            {
+                "name": "Web Development"
+            },
+            {
+                "name": "React"
+            },
+            {
+                "name": "UI/UX Design"
             }
         ],
         "link": "https://lfg.gccis.rit.edu/",
         "btnTitle": "Check It Out Here!",
-        "img": "./../../media/images/projects/lfg-logo.png"
+        "img": "./../../media/images/projects/lfg-logo.png",
+        "tag": "lfg"
     },
     {
         "name": "DirectX 11 Graphics Engine",
@@ -54,7 +67,8 @@
         "btnTitle": "GitHub Repo",
         "link2": "https://youtu.be/vGTd6Gt_8k0",
         "btnTitle2": "Video Demo",
-        "img": "./../../media/images/projects/graphics-bg.png"
+        "img": "./../../media/images/projects/graphics-bg.png",
+        "tag": "dxge"
     },
     {
         "name": "New Portfolio Website",
@@ -81,7 +95,8 @@
         ],
         "link": "https://github.com/Trev-D-Dev/portfolio",
         "btnTitle": "GitHub Repo",
-        "img": "N/A"
+        "img": "N/A",
+        "tag": "port"
     },
     {
         "name": "A Head for Death",
@@ -117,7 +132,8 @@
         ],
         "link": "https://tddev.itch.io/a-head-for-death",
         "btnTitle": "Mockup Itch.io Page",
-        "img": "./../../media/images/projects/a-head-for-death.png"
+        "img": "./../../media/images/projects/a-head-for-death.png",
+        "tag": "ah4d"
     },
     {
         "name": "Amiibo Collector",
@@ -165,7 +181,8 @@
         ],
         "link": "N/A",
         "btnTitle": "N/A",
-        "img": "./../../media/images/projects/amiibo-collector.png"
+        "img": "./../../media/images/projects/amiibo-collector.png",
+        "tag": "amii"
     },
     {
         "name": "Composed Music for Games",
@@ -182,14 +199,12 @@
             },
             {
                 "name": "Sound Design"
-            },
-            {
-                "name": "Editing"
             }
         ],
         "link": "https://youtu.be/IfwXzI-xTpw",
         "btnTitle": "Video",
-        "img": "./../../media/images/projects/composing-project.jpg"
+        "img": "./../../media/images/projects/composing-project.jpg",
+        "tag": "comp"
     },
     {
         "name": "The Horde",
@@ -228,7 +243,8 @@
         ],
         "link": "https://www.youtube.com/watch?v=E-HsQAP9oyA&t=0h10m3s",
         "btnTitle": "Game Demonstration",
-        "img": "./../../media/images/projects/theHorde-image.png"
+        "img": "./../../media/images/projects/theHorde-image.png",
+        "tag": "hord"
     },
     {
         "name": "Secret of the Secluded Sanctuary",
@@ -264,7 +280,8 @@
         ],
         "link": "https://tddev.itch.io/the-secret-of-the-secluded-sanctuary",
         "btnTitle": "Mockup Itch.io Page",
-        "img": "./../../media/images/projects/secret-of-secluded-sanctuary.jpeg"
+        "img": "./../../media/images/projects/secret-of-secluded-sanctuary.jpeg",
+        "tag": "soss"
     },
     {
         "name": "Cyber Curse",
@@ -286,7 +303,7 @@
                 "name": "Game Development"
             },
             {
-                "name": "Audio Design"
+                "name": "Sound Design"
             },
             {
                 "name": "Composing"
@@ -306,7 +323,8 @@
         ],
         "link": "N/A",
         "btnTitle": "N/A",
-        "img": "./../../media/images/projects/cyber-curse.png"
+        "img": "./../../media/images/projects/cyber-curse.png",
+        "tag": "cybc"
     },
     {
         "name": "Dog Guesser",
@@ -333,7 +351,8 @@
         ],
         "link": "N/A",
         "btnTitle": "N/A",
-        "img": "./../../media/images/projects/dogGuesser-image.png"
+        "img": "./../../media/images/projects/dogGuesser-image.png",
+        "tag": "dogg"
     }
         ]
 }

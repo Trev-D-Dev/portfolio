@@ -7,12 +7,223 @@
         {
             "name": "Angular",
             "type": "webDev"
+        },
+        {
+            "name": "JavaScript",
+            "type": "webDev"
+        },
+        {
+            "name": "Figma",
+            "type": "webDev"
+        },
+        {
+            "name": "Node.js",
+            "type": "webDev"
+        },
+        {
+            "name": "MongoDB",
+            "type": "webDev"
+        },
+        {
+            "name": "Express.js",
+            "type": "webDev"
+        },
+        {
+            "name": "Eslint",
+            "type": "webDev"
+        },
+        {
+            "name": "Web Development",
+            "type": "webDev"
+        },
+        {
+            "name": "React",
+            "type": "webDev"
+        },
+        {
+            "name": "UI/UX Design",
+            "type": "webDev"
+        },
+        {
+            "name": "C++",
+            "type": "gameDev"
+        },
+        {
+            "name": "DirectX 11",
+            "type": "gameDev" 
+        },
+        {
+            "name": "ImGui",
+            "type": "gameDev"
+        },
+        {
+            "name": "HLSL",
+            "type": "gameDev"
+        },
+        {
+            "name": "Rasterization",
+            "type": "gameDev"
+        },
+        {
+            "name": "TypeScript",
+            "type": "webDev"
+        },
+        {
+            "name": "HTML",
+            "type": "webDev"
+        },
+        {
+            "name": "CSS",
+            "type": "webDev"
+        },
+        {
+            "name": "Game Design",
+            "type": "gameDev"
+        },
+        {
+            "name": "Game Development",
+            "type": "gameDev"
+        },
+        {
+            "name": "Writing",
+            "type": "gameDev"
+        },
+        {
+            "name": "Sound Design",
+            "type": "gameDev"
+        },
+        {
+            "name": "C#",
+            "type": "gameDev"
+        },
+        {
+            "name": "Amiibo API",
+            "type": "webDev"
+        },
+        {
+            "name": "Fullstack Dev",
+            "type": "webDev"
+        },
+        {
+            "name": "Frontend Dev",
+            "type": "webDev"
+        },
+        {
+            "name": "Bulma",
+            "type": "webDev"
+        },
+        {
+            "name": "Backend Dev",
+            "type": "webDev"
+        },
+        {
+            "name": "API Development",
+            "type": "webDev"
+        },
+        {
+            "name": "GitHub Actions",
+            "type": "webDev"
+        },
+        {
+            "name": "Heroku",
+            "type": "webDev"
+        },
+        {
+            "name": "Git",
+            "type": "both"
+        },
+        {
+            "name": "Composing",
+            "type": "gameDev"
+        },
+        {
+            "name": "Pro Tools",
+            "type": "gameDev"
+        },
+        {
+            "name": "Pixi JS",
+            "type": "webDev"
+        },
+        {
+            "name": "Howler",
+            "type": "webDev"
+        },
+        {
+            "name": "Twine",
+            "type": "gameDev"
+        },
+        {
+            "name": "Dog API",
+            "type": "webDev"
+        },
+        {
+            "name": "Redis",
+            "type": "webDev"
+        },
+        {
+            "name": "OpenGL",
+            "type": "gameDev"
+        },
+        {
+            "name": "DirectX 12",
+            "type": "gameDev"
+        },
+        {
+            "name": "Monogame",
+            "type": "gameDev"
+        },
+        {
+            "name": "WebAudio API",
+            "type": "webDev"
+        },
+        {
+            "name": "Firebase",
+            "type": "webDev"
+        },
+        {
+            "name": "Canvas",
+            "type": "webDev"
+        },
+        {
+            "name": "MapBox",
+            "type": "webDev"
+        },
+        {
+            "name": "Java",
+            "type": "none"
+        },
+        {
+            "name": "Python",
+            "type": "none"
         }
     ],
     "softSkills":[
         {
-            "name": "Willingness To Learn",
-            "type": "soft"
+            "name": "Desire To Learn"
+        },
+        {
+            "name": "Teamwork"
+        },
+        {
+            "name": "Research"
+        },
+        {
+            "name": "Passionate"
+        },
+        {
+            "name": "Attention-to-Detail"
+        },
+        {
+            "name": "Hard-Working"
+        },
+        {
+            "name": "Follows Instructions Well"
+        },
+        {
+            "name": "Communication"
+        },
+        {
+            "name": "Good Sense of Humor"
         }
     ]
 }
