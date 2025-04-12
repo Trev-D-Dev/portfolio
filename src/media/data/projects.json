@@ -95,7 +95,7 @@
         ],
         "link": "https://github.com/Trev-D-Dev/portfolio",
         "btnTitle": "GitHub Repo",
-        "img": "N/A",
+        "img": "./../../media/images/projects/portfolio.jpg",
         "tag": "port"
     },
     {
