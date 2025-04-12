@@ -4,38 +4,30 @@
         <h1 class="page-title">Here's Some Things I've Worked On!</h1>
     </div>
 
-    <div class="tile projects">
-        <div class="content">
+    <div class="content">
+        <div class="tile project-details"
+             *ngFor="let project of projects"
+             id="{{project.tag}}">
+             <div class="header">
 
-            <!-- TODO: Find a way to split project image and project details so they act more independent of each other (maybe use @for) -->
+                @if(project.img != "N/A") {
+                    <img class="project-image" id="{{project.tag}}" src="{{project.img}}">
+                } @else {
+                    <div class="project-image" id="{{project.tag}}"><h1>Portfolio</h1></div>
+                }
+                
 
-            <div class="project" 
-                 *ngFor="let project of projects"
-                 (click)="showDetails($event)">
-                 @if (project.img != "N/A") {
-                    <div class="header">
-                        <img id="{{project.tag}}" class="project-img" src="{{project.img}}">
-                    </div>
-                 } @else {
-                    <div>
-                        <h1 id="{{project.tag}}">Portfolio</h1>
-                    </div>
-                 }
-                 <div class="project-details" hidden>
+                <div class="info">
                     <h1 class="project-name">{{project.name}}</h1>
                     <h2 class="project-type">{{project.type}}</h2>
                     <h2 class="project-location">{{project.location}}</h2>
                     <h3 class="project-dates">{{project.dates}}</h3>
-                    <p class="project-desc">{{project.desc}}</p>
-                    <p class="project-skills">{{project.skills}}</p>
-                    <h3 class="project-link">{{project.link}}</h3>
-                 </div>
-            </div>
-
-            <!--@for(let project of projects) {
-
-        }-->
+                </div>
+             </div>
+            <p class="project-desc">{{project.desc}}</p>
+            <p class="project-skills">{{project.skills}}</p>
+            <button (click)="goToPage(project.link)"></button>
+            <h3 class="project-link">{{project.link}}</h3>
         </div>
     </div>
-
 </div>

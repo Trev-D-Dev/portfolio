@@ -1,6 +1,8 @@
 @import './../../styles.css';
 
 .nav {
+    background-color: var(--main-bg-color);
+
     padding: 1rem;
     
     width:fit-content;

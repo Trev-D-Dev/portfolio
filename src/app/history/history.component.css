@@ -1,1 +1,25 @@
 @import './../../styles.css';
+
+.page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 30vw;
+
+    margin: auto;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 1.5rem;
+
+    justify-content: center;
+    align-items: center;
+}

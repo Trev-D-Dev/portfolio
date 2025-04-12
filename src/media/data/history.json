@@ -1,9 +1,23 @@
 {
     "history": [
         {
+            "title": "Graduated from the Rochester Institute of Technology",
+            "date": "December 2024",
+            "desc": "Bachelor's Degree in Game Design and Develeopment Minor in Japanese Summa Cum Laude and GPA of 3.87"
+        },
+        {
+            "title": "Internship at Looking for Group - RIT",
+            "date": "May 2024 - August 2024, September 2024 - December 2024",
+            "desc": ""
+        },
+        {
+            "title": "Barista at Barnes & Noble",
+            "date": "August 2018 - August 2020",
+            "desc": ""
+        },
+        {
             "title": "Leadership Intern at Camp Invention",
             "date": "July 2017, July 2018, & July 2019",
-            "order": "1",
             "desc": "Blah blah blah blah blah"
         }
     ]
