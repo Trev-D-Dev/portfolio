@@ -17,15 +17,19 @@
     
     gap: 2rem;
 
-    align-items: center;
     justify-content: center;
 } 
 
-.project-details {
+.project-tile {
     width: 30%;
 
-    aspect-ratio: 5/3;
+    aspect-ratio: 4/3;
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 1.5rem;
 }
 
 .header {
@@ -52,16 +56,8 @@
     border-radius: 2rem;
 }
 
-.project-image#port,
 .project-image#lfg {
     background-color: black;
-}
-
-.project-image#port {
-    align-items: center;
-    justify-content: center;
-
-    margin: auto;
 }
 
 .info {
@@ -70,3 +66,81 @@
     margin-bottom: 2rem;
 }
 
+.project-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    gap: 1rem;
+}
+
+.project-skills,
+.project-desc {
+    width: 50%;
+}
+
+.project-desc-text {
+    margin-top: 0;
+    font-size: 1.25rem;
+}
+
+.project-skills {
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-title {
+    margin: auto;
+    margin-bottom: 0.5rem;
+
+    justify-self: center;
+    align-self: center;
+
+    width:fit-content
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+}
+
+.skill {
+    padding: 0.5rem;
+    background-color: var(--tile-text-color);
+    border-radius: 1rem;
+
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-text {
+    color: var(--tile-bg-color);
+
+    margin: none;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-button {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--page-title-color);
+
+    width: 14rem;
+
+    border-radius: 2rem;
+    border: none;
+}
+
+.project-button-text {
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

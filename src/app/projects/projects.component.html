@@ -5,29 +5,42 @@
     </div>
 
     <div class="content">
-        <div class="tile project-details"
+        <div class="tile project-tile"
              *ngFor="let project of projects"
              id="{{project.tag}}">
              <div class="header">
 
-                @if(project.img != "N/A") {
-                    <img class="project-image" id="{{project.tag}}" src="{{project.img}}">
-                } @else {
-                    <div class="project-image" id="{{project.tag}}"><h1>Portfolio</h1></div>
-                }
+                <img class="project-image" id="{{project.tag}}" src="{{project.img}}">
                 
-
                 <div class="info">
                     <h1 class="project-name">{{project.name}}</h1>
                     <h2 class="project-type">{{project.type}}</h2>
-                    <h2 class="project-location">{{project.location}}</h2>
+                    @if(project.location != "N/A") {
+                        <h2 class="project-location">{{project.location}}</h2>
+                    }
                     <h3 class="project-dates">{{project.dates}}</h3>
                 </div>
              </div>
-            <p class="project-desc">{{project.desc}}</p>
-            <p class="project-skills">{{project.skills}}</p>
-            <button (click)="goToPage(project.link)"></button>
-            <h3 class="project-link">{{project.link}}</h3>
+
+             <div class="project-details">
+                <div class="project-desc">
+                    <h4 class="project-desc-text">{{project.desc}}</h4>
+                </div>
+                <div class="project-skills">
+                    <h4 class="skills-title">Skills Utilized:</h4>
+                    <div class="skills">
+                         <div class="skill"
+                              *ngFor="let skill of project.skills">
+                              <h5 class="skill-text">{{skill.name}}</h5>
+                         </div>
+                    </div>
+                </div>
+             </div>
+            @if(project.btnTitle != "N/A"){
+                <button class="project-button" (click)="goToPage(project.link)">
+                    <h3 class="project-button-text">{{project.btnTitle}}</h3>
+                </button>
+            }
         </div>
     </div>
 </div>

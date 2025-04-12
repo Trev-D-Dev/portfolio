@@ -24,6 +24,6 @@ export class ProjectsComponent {
   }
 
   goToPage(link: any) {
-    return;
+    window.open(link, '_blank');
   }
 }
